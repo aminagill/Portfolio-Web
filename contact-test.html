@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amina Fatima-web developer, Programmer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   <div class="container">
+
+    <div class="sidebar sidebarGo">
+        
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="/intro.html">Intro</a></li>
+                <li><a href="/services.html">Services</a></li>
+                <li><a href="/blog.html">Blog</a></li>
+                <li><a href="/contact.html">Contact me</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="main">
+              <div class="hamburger">
+            <img  class="ham" src="images/2.png" alt="" width="23px">
+            <img class="cross" src="images/1.png" alt="" width="23px">
+        </div>
+        <div class="infocontainer">
+            
+            <div class="devinfo">       
+    </div>
+<form id="contact-form" class="contact-form">
+  <div class="mb-3">
+    <h1>Contact me for Work / General Enquiries</h1>
+
+    <label for="name" class="form-label">Name</label>
+    <input type="text" name="name" class="form-control" id="name" required>
+
+    <br>
+
+    <label for="email" class="form-label">Email address</label>
+    <input type="email" name="email" class="form-control" id="email" required>
+
+    <div id="emailHelp" class="form-text">
+      We'll never share your email with anyone else.
+    </div>
+  </div>
+
+  <div class="mb-3">
+    <label for="phone" class="form-label">Phone Number</label>
+    <input type="tel" name="phone" class="form-control" id="phone">
+  </div>
+
+  <div class="mb-3">
+    <label for="title" class="form-label">Subject</label>
+    <input type="text" name="title" class="form-control" id="title" required>
+  </div>
+
+  <div class="mb-3">
+    <label for="message" class="form-label">Message</label>
+    <textarea name="message" class="form-control" id="message" rows="5" required></textarea>
+  </div>
+
+  <div class="mb-3 form-check">
+    <input type="checkbox" name="isclient" class="form-check-input" id="isclient">
+    <label class="form-check-label" for="isclient">
+      I want you to work on a project with me
+    </label>
+  </div>
+
+  <button type="submit" class="btn">Submit</button>
+</form>
+
+    </div>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script>
+  emailjs.init("2bpAfMa9akvxx7DLE");
+</script>
+<script src="script.js"></script>
+</body>
+</html>
